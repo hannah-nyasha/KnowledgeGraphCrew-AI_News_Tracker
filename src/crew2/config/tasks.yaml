@@ -5,6 +5,11 @@ research_task:
     general Google results and use the scrape tool to scrape the top 2 positional URLs from the organic search results for relevant web content.
     Prioritize accuracy, relevance, and clarity in presenting your findings.
   expected_output: >
+     For each development found, you MUST include:
+1. "articleSummary" — a plain-language 2-3 sentence summary of what the article or document actually says.
+   Write this as if explaining to a colleague who hasn't read it. Stick to facts from the source.
+2. "aiAuditorRelevance" — specific implications for AI auditors (conformity assessors, algorithmic auditors)
+3. "internalAuditorRelevance" — specific implications for internal audit functions.
     A detailed and accurate research report summarizing structured Knowledge Graph data 
     (if available). If not, provide insights gathered from general search, 
     ensuring all information is relevant to {topic}. If general search is not authorized,
